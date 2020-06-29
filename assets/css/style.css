@@ -1,0 +1,41 @@
+body{
+    background: url("../images/background.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    color: white;
+    font-family: 'Berkshire Swash', cursive;
+
+}
+h2{
+    margin-bottom: 3%;
+}
+
+.jumbotron{
+    font-size: 5rem;
+    opacity: .75;
+    background: black;
+    color: blue;
+}
+
+#sound{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#question{
+    color: white;
+    font-size: 2.5rem;
+}
+
+#answers{
+    opacity: .9;
+}
+
+#results{
+    font-size: 3rem;
+}
+
+#restart,#start{
+    display: flex;
+    justify-content: center;
+}
